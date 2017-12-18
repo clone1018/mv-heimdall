@@ -18,6 +18,7 @@ module.exports = {
     filename: 'heimdall-server.bundle.js'
   },
   target: "node",
+  devtool: "inline-source-map",
   externals: nodeModules,
   module: {
     rules: [
